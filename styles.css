@@ -1,0 +1,25 @@
+body {
+    margin:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0px auto 0px auto; /*top right bottom left*/
+    /*or margin: 0px auto which are 0 for top/bottom controls y axis, auto for left/right controls x axis */ 
+    text-align: center;
+    color: #2b2839;
+    background: #d8d3c8;
+    border-bottom: #bd352f solid 5px;
+}
+
+.border-bottom {
+    border: black solid 5px;
+}
